@@ -1,0 +1,18 @@
+
+本项目内容：
+使用MyBatis对表执行CRUD操作-基于注解形式实现
+
+博客标题：
+MyBatis学习总结(三)——优化MyBatis配置文件中的配置
+
+注：基于第一个例子 tech23mybatis，增加了一个方法，可以作为对比
+
+本项目包括：
+一、连接数据库的配置单独放在一个properties文件中
+	<properties resource="db.properties"/>
+二、为实体类定义别名，简化sql映射xml文件中的引用:有两种方式 在conf.xml中配置
+	1.<typeAlias type="me.gacl.domain.User" alias="_User"/>
+	2.<package name="me.gacl.domain"/>
+
+
+
